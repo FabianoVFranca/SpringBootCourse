@@ -7,8 +7,8 @@ import jakarta.persistence.Table;
 
 //Plain Old Java Object
 @Entity
-@Table(name = "produto")
-public class Produto {
+@Table(name = "product")
+public class Product {
     @Column(name = "product_code")
     @Id
     private String id;
